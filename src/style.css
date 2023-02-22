@@ -1,6 +1,69 @@
-body {
-background-image:url("img/wall-1217083_1280.jpg");
-background-size:cover;
-color: rgb(38, 38, 41);
-text-align: center;
+.contenedor{
+    margin: auto;
+    width: 60%;
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+    border:grey solid 1px
+}
+.caja-texto:focus,
+.caja-texto:focus-visible{
+    border: #009D43 solid 1px;
+    box-shadow: 0 0 5px #009D43;
+    outline: #009D43 solid 1px;
+}
+.caja-texto,.selector {
+    width: 100%;
+    margin: 0;
+    padding: 0.6em 0.7em;
+    border: 1px solid hsl(210,8%,75%);
+    border-radius: 3px;
+    background-color: white;
+    color: hsl(210,8%,5%);
+    font-family: inherit;
+}
+.formulario,.tarjeta{
+    width: 50%;
+}
+.contenedor-detalle{
+    flex-direction: row;
+    display: flex;
+}
+.month,.year,.cvv{
+    width:33%;
+    padding: 10px;
+}
+.validar-tarjeta{
+    width: 100%;
+    background-color: #009D43;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:none;
+    height: 40px;
+    border-radius: 30px;
+}
+.validar-tarjeta:hover {
+    background-color: #006329;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mensaje-valido,.mensaje-erroneo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+.mensaje-erroneo{
+    border:#9e0447 solid 1px;
+    color: #9e0447;
+    display: none;
+}
+.mensaje-valido{
+    border:#009D43 solid 1px;
+    color: #009D43;
+    display: none;
 }
