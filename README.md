@@ -12,3 +12,6 @@ npm run start
 ```
 ###### Ejecutar el proyecto en local host
 
+
+## Url GitHub Pages Project 
+Haz click aquì(https://mayragarciam.github.io/DEV005-card-validation-main/)
